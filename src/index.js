@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require("path");
 //setings
-app.set('port',3000);
+app.set('port',80);
 // indico al servidor la ruta completa de la carpet views
 app.set('views', path.join(__dirname, 'views'));
 app.set("view engine", "ejs");
